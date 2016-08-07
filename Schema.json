@@ -1,0 +1,28 @@
+{
+    "Edges": [
+        {
+          "id": "int",  
+          "Type": "LineSegment",
+            "Vertices": ["int"],
+        },
+        {
+          "id": "int",
+            "Type": "CircularArc",
+            "Center": {
+                "X": "double",
+                "Y": "double",
+            },
+            "ClockwiseFrom": "int",
+            "Vertices": ["int"],
+        }
+    ],
+    "Vertices": [
+        {
+      	    "id" : "int",
+            "Position": {
+                "X": "double",
+                "Y": "double",
+            }
+      }
+    ]
+}
