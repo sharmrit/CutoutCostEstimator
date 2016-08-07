@@ -1,0 +1,19 @@
+Instruction:
+Step 1: Download the repository "CutoutCostEstimator" and unzip it
+Step 2: open index.html in Chrome or mozilla browser
+Step 3: Browse the input JSON file
+Step 4: Load the file by clicking "Load" button
+Step 5: Hit "Calculate Cost" button to estimate cost for laser cutting
+
+Alternatively,
+
+Step 1: Download the repository "CutoutCostEstimator" and unzip it
+Step 2: open index.html in Chrome or mozilla browser
+Step 3: Copy the input JSON file text to the textarea
+Step 5: Hit "Calculate Cost" button to estimate cost for laser cutting
+
+(Note: Input should be based on the schema shown in Schema.JSON provided with this repository)
+
+Improvements:
+I think the other way of solving this problem will be construction of convexhull. But with if the given geometry is too complex and is both concave and convex. 
+The performance of the code will degrade considerably. To support this, I dont have any proofs as of now.
